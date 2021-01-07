@@ -1,10 +1,10 @@
 ### Crafts GraphQL API 
 Core API for arts/crafts website, extending and customising the [Saleor](https://github.com/mirumee/saleor) (2.11) eCommerce platform.
 
-Running on an EC2 instance (Ubuntu 20.04), I found I needed a few extra packages: libpangocairo-1.0-0 libpango-1.0-0 pango-1.0 libcairo2-dev. These have been added to the requirements.txt for you. 
-
 ### Running Locally on Ubuntu:
-Since there isn't a manual installation guide for Saleor on Ubuntu I've written up an updated version of [Neerajgupta2407](https://github.com/neerajgupta2407/saleor_course_resources/blob/master/setup_saleor_core.txt)'s setup guide:
+Running on an EC2 instance (Ubuntu 20.04), I found I needed a few extra packages: libpangocairo-1.0-0 libpango-1.0-0 pango-1.0 libcairo2-dev. With these added, everything ran smoothly, and should do for you too.
+
+Since there isn't a manual installation guide for Saleor on Ubuntu I've written up an updated version of [Neerajgupta2407](https://github.com/neerajgupta2407/saleor_course_resources/blob/master/setup_saleor_core.txt)'s setup guide for Python 3.8:
 
 Basics:
 ```
