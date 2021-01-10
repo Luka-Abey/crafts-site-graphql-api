@@ -6,7 +6,7 @@ Running on an EC2 instance (Ubuntu 20.04), I found I needed a few extra packages
 
 Since there isn't a manual installation guide for Saleor on Ubuntu I've written up an updated version of [Neerajgupta2407](https://github.com/neerajgupta2407/saleor_course_resources/blob/master/setup_saleor_core.txt)'s setup guide for Python 3.8:
 
-Basics:
+Initial setup of machine:
 ```
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
@@ -76,3 +76,9 @@ Run server:
 python manage.py runserver 0.0.0.0:8000
 ```
  
+### Built With
+
+- [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/client), [React](https://reactjs.org/) and [Typescript](https://www.typescriptlang.org/)
+- [Braintree Payment Gateway](https://www.braintreepayments.com/)
+
+ By [Mirumee](https://github.com/mirumee) and Luka-Abey
