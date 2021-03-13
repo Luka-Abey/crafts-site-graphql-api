@@ -12,8 +12,8 @@ def create_default_site(apps, schema_editor):
     SiteSettings.objects.get_or_create(
         pk=settings_id,
         defaults={
-            "name": "Ruthfully",
-            "header_text": "Test Saleor - a sample shop!",
+            "name": "Ruth Packham",
+            "header_text": "Artist Ruth Packham's Website",
             "domain": "localhost:8000",
         },
     )
